@@ -39,4 +39,4 @@ RUN find ./ -iname "*.py" -type f -exec chmod a+x {} \; -exec echo {} \;;
 
 ENTRYPOINT []
 
-CMD [ "sh" ]
+CMD [ "python", "./app.py" ]
