@@ -28,6 +28,8 @@ RUN set -ex && apk update && \
 
 RUN apk update && apk add --update --no-cache expat=2.2.9-r1
 
+USER python
+
 WORKDIR ${HOME}
 
 COPY --chown=python:python --from=install-env [ "/usr/local", "/usr/local/" ]
