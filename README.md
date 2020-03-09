@@ -12,7 +12,7 @@ Lucca Pessoa da Silva Matos (c) 2019 - **GitHub Repository**.
 
 To use this repository you need to make a **git clone**:
 
-```
+```bash
 git clone --depth 1 https://github.com/lpmatos/bin-dec.git -b master
 ```
 
