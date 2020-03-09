@@ -1,5 +1,9 @@
 # Bin-Dec
 
+This is a basic application built without purpose.
+
+![Alt text](docs/CMD.png?raw=true "BinDec")
+
 ## Copyright (c)
 
 Lucca Pessoa da Silva Matos (c) 2019 - **GitHub Repository**.
@@ -17,6 +21,7 @@ This will give access on your **local machine** to this project.
 ## Organization
 
 * **/code** in this folder we have the **bindec** application.
+* **/docs** is the directory where we have all documentation files.
 * **docker-compose.yml** is the **Docker** container orchestrator.
 * **Dockerfile** is a file used to set up your **Docker** environment.
 * **Makefile** is a file containing a set of automation policies.
@@ -44,21 +49,21 @@ constraints:
     example the natural logarithm. It's up to you to figure out which function
     to use.
 
-## User Stories
+### User Stories
 
 -   [x] User can enter up to 8 binary digits in one input field
 -   [x] User must be notified if anything other than a 0 or 1 was entered
 -   [x] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
 
-## Bonus features
+### Bonus features
 
 -   [x] User can enter a variable number of binary digits
 
-## Useful links and resources
+### Useful links and resources
 
 [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
 
-## Example projects
+### Example projects
 
 Try not to view this until you've developed your own solution:
 
@@ -67,6 +72,29 @@ Try not to view this until you've developed your own solution:
 -   [Binary to Decimal converter with plain html, js and css](https://grfreire.github.io/Bin2Dec/)
 -   [Binary to Decimal converter using Flutter & Dart](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
 -   [Live preview built with Flutter for Web](https://bin2dec.web.app/#/)
+
+## Pre-Requisites
+
+**Tools**
+:---:
+**Python**
+**Docker**
+**docker-compose**
+
+## Containers
+
+It's set at [docker-compose.yml](docker-compose.yml) all the **Containers** required for the application execution.
+
+**Container** | **Description** | **Dockerfile**
+:---: | :---: | :---:
+bindec | **Alpine Python Container** | [Dockerfile](Dockerfile)
+
+## Structure
+
+**Components** | **Description** | **Tool**
+:---: | :---: | :---:
+python | **Language to create a script that convert bin to dec** | [Python](https://www.python.org/)
+docker | **Docker aims create, test and implement applications in a separate environment from the original machine, called a container** | [Docker](https://docs.docker.com/)
 
 ## Running pip
 

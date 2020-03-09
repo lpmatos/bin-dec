@@ -18,7 +18,7 @@ LABEL maintainer="Lucca Pessoa da Silva Matos - luccapsm@gmail.com" \
       org.label-schema.url="https://github.com/lpmatos" \
       org.label-schema.alpine="https://alpinelinux.org/" \
       org.label-schema.python="https://www.python.org/" \
-      org.label-schema.name="Helm Clean Releases" 
+      org.label-schema.name="Bin-Dec" 
 
 ENV HOME=/usr/src/code
 
