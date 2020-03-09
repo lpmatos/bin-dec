@@ -2,7 +2,7 @@
 
 This is a basic application built without purpose.
 
-![Alt text](docs/CMD.png?raw=true "BinDec")
+![Alt text](docs/images/CMD.png?raw=true "BinDec")
 
 ## Copyright (c)
 
