@@ -16,4 +16,4 @@ Contar em binário é semelhante a contar em qualquer outro sistema numérico. C
 
 A contagem binária segue o mesmo procedimento da contagem decimal, exceto que apenas os dois símbolos 0 e 1 estão disponíveis. Assim, depois que um dígito atinge 1 em binário, um incremento o redefine para 0, mas também causa um incremento do próximo dígito à esquerda.
 
-![Alt text](docs/images/EXEMPLE.png?raw=true "Contagem")
+![Alt text](https://github.com/lpmatos/bin-dec/blob/master/docs/images/EXEMPLE.png?raw=true "Contagem")
