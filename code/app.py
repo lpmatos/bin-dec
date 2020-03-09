@@ -30,7 +30,7 @@ def binary_to_decimal(number: Text) -> int:
 
 if __name__ == "__main__":
 
-    cprint(figlet_format("Bin-Dic", font="starwars"), "red", "on_yellow", attrs=["dark"])
+    cprint(figlet_format("Bin-Dec", font="starwars"), "red", "on_yellow", attrs=["dark"])
 
     while True:
 
